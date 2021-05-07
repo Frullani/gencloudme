@@ -1,0 +1,28 @@
+{\rtf1\ansi\ansicpg1251\cocoartf2576
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Bold;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red15\green112\blue1;\red246\green247\blue249;\red24\green25\blue26;
+\red0\green0\blue0;\red83\green83\blue83;}
+{\*\expandedcolortbl;;\cssrgb\c0\c50196\c0;\cssrgb\c97255\c97647\c98039;\cssrgb\c12549\c12941\c13333;
+\cssrgb\c0\c0\c0;\cssrgb\c40000\c40000\c40000;}
+\paperw12240\paperh15840\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+while
+\f1\b0 \cf4 (\uc0\u1077 \u1089 \u1090 \u1100  \u1074  \u1084 \u1085 \u1086 \u1078 \u1077 \u1089 \u1090 \u1074 \u1077 (\u1087 \u1086 \u1083 \u1077 )\u1090 \u1086 \u1095 \u1082 \u1080 ) \
+\{ \
+   point = \uc0\u1083 \u1102 \u1073 \u1072 \u1103  \u1085 \u1077  \u1087 \u1086 \u1082 \u1088 \u1099 \u1090 \u1072 \u1103  \u1090 \u1086 \u1095 \u1082 \u1072 ;\
+   group = \uc0\u1087 \u1086 \u1082 \u1088 \u1099 \u1090 \u1100  \u1090 \u1086 \u1095 \u1082 \u1080  (point, R); //R \u1088 \u1072 \u1076 \u1080 \u1091 \u1089  \u1095 \u1077 \u1088 \u1077 \u1087 \u1072 \u1096 \u1077 \u1082 \
+   center = \uc0\u1085 \u1072 \u1081 \u1090 \u1080  \u1094 \u1077 \u1085 \u1090 \u1088  \u1084 \u1072 \u1089 \u1089  \u1091  \u1075 \u1088 \u1091 \u1087 \u1087 \u1099  (group);  \
+    \
+   
+\f0\b \cf2 while
+\f1\b0 \cf4  (center\'a0!= priv_current)  \cf6 //\cf4 \uc0\u1087 \u1086 \u1082 \u1072  \u1094 \u1077 \u1085 \u1090 \u1088  \u1090 \u1103 \u1078 \u1077 \u1089 \u1090 \u1080  \u1085 \u1077  \u1089 \u1090 \u1072 \u1073 \u1080 \u1083 \u1080 \u1079 \u1080 \u1088 \u1091 \u1077 \u1090 \u1089 \u1103  \
+   \{ \
+      priv_center = center_object; \
+      \cf4 \cb3 group = \uc0\u1087 \u1086 \u1082 \u1088 \u1099 \u1090 \u1100  \u1090 \u1086 \u1095 \u1082 \u1080  (center, R);\cf4 \cb3 \
+      \cf4 \cb3 center = \uc0\u1085 \u1072 \u1081 \u1090 \u1080  \u1094 \u1077 \u1085 \u1090 \u1088  \u1084 \u1072 \u1089 \u1089  \u1091  \u1075 \u1088 \u1091 \u1087 \u1087 \u1099  (group); \cf4 \cb3 \
+   \}  \
+   \uc0\u1091 \u1073 \u1088 \u1072 \u1090 \u1100  \u1086 \u1073 \u1098 \u1077 \u1082 \u1090 \u1099  \u1080 \u1079  \u1080 \u1089 \u1093 \u1086 \u1076 \u1085 \u1086 \u1075 \u1086  \u1084 \u1085 \u1086 \u1078 \u1077 \u1089 \u1090 \u1074 \u1072  (neighbour_objects); \
+\}}

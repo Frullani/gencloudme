@@ -1,0 +1,7 @@
+mfield
+Cpycloud
+test1.txt
+find_clasters_by_ierarh
+3
+write
+exit

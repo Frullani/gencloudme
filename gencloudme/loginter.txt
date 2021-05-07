@@ -1,0 +1,794 @@
+New session --- Fri Dec 11 16:23:26 2020
+gen cloud arround-3 -3with Dispersia po x y1 0.5 --- Fri Dec 11 16:23:26 2020
+gen cloud arround3 3with Dispersia po x y0.5 1 --- Fri Dec 11 16:23:26 2020
+start find_clasters_by_ierarh --- Fri Dec 11 16:23:26 2020
+finish find_clasters_by_ierarh --- Fri Dec 11 16:23:26 2020
+exit --- Fri Dec 11 16:23:42 2020
+
+New session --- Fri Dec 11 16:25:43 2020
+gen cloud arround-3 -3with Dispersia po x y1 0.5 --- Fri Dec 11 16:25:43 2020
+gen cloud arround3 3with Dispersia po x y0.5 1 --- Fri Dec 11 16:25:43 2020
+start find_clasters_by_ierarh --- Fri Dec 11 16:25:43 2020
+finish find_clasters_by_ierarh --- Fri Dec 11 16:25:43 2020
+exit --- Fri Dec 11 16:26:52 2020
+
+New session --- Fri Dec 11 16:29:46 2020
+gen cloud arround-3 -3with Dispersia po x y1 0.5 --- Fri Dec 11 16:29:46 2020
+gen cloud arround3 3with Dispersia po x y0.5 1 --- Fri Dec 11 16:29:46 2020
+start find_clasters_by_ierarh --- Fri Dec 11 16:29:46 2020
+finish find_clasters_by_ierarh --- Fri Dec 11 16:29:46 2020
+exit --- Fri Dec 11 16:30:05 2020
+
+New session --- Fri Dec 11 16:39:54 2020
+gen cloud arround-3 -3with Dispersia po x y1 0.5 --- Fri Dec 11 16:39:54 2020
+gen cloud arround3 3with Dispersia po x y0.5 1 --- Fri Dec 11 16:39:54 2020
+start find_clasters_by_ierarh --- Fri Dec 11 16:39:54 2020
+finish find_clasters_by_ierarh --- Fri Dec 11 16:40:11 2020
+exit --- Fri Dec 11 16:40:11 2020
+
+New session --- Fri Dec 11 16:45:16 2020
+gen field --- Fri Dec 11 16:45:16 2020
+gen cloud arround (-3,-3) with Dispersia po x y 1 0.5 with 1000 points --- Fri Dec 11 16:45:16 2020
+gen cloud arround (3,3) with Dispersia po x y 0.5 1 with 100 points --- Fri Dec 11 16:45:16 2020
+start find_clasters_by_ierarh --- Fri Dec 11 16:45:16 2020
+finish find_clasters_by_ierarh --- Fri Dec 11 16:45:32 2020
+exit --- Fri Dec 11 16:45:32 2020
+
+New session --- Fri Dec 11 17:05:04 2020
+gen field --- Fri Dec 11 17:05:04 2020
+gen cloud arround (-3,-3) with Dispersia po x y 1 0.5 with 1000 points --- Fri Dec 11 17:05:04 2020
+gen cloud arround (3,3) with Dispersia po x y 0.5 1 with 100 points --- Fri Dec 11 17:05:04 2020
+start find_clasters_by_ierarh --- Fri Dec 11 17:05:04 2020
+finish find_clasters_by_ierarh --- Fri Dec 11 17:05:21 2020
+get command write --- Fri Dec 11 17:05:21 2020
+
+
+New session --- Fri Dec 11 17:09:17 2020
+gen field --- Fri Dec 11 17:09:17 2020
+gen cloud arround (-3,-3) with Dispersia po x y 1 0.5 with 100 points --- Fri Dec 11 17:09:17 2020
+gen cloud arround (3,3) with Dispersia po x y 0.5 1 with 100 points --- Fri Dec 11 17:09:17 2020
+start find_clasters_by_ierarh --- Fri Dec 11 17:09:17 2020
+finish find_clasters_by_ierarh --- Fri Dec 11 17:09:17 2020
+get command write --- Fri Dec 11 17:09:17 2020
+
+
+New session --- Fri Dec 11 17:10:42 2020
+gen field --- Fri Dec 11 17:10:42 2020
+gen cloud arround (-3,-3) with Dispersia po x y 1 0.5 with 100 points --- Fri Dec 11 17:10:42 2020
+gen cloud arround (3,3) with Dispersia po x y 0.5 1 with 100 points --- Fri Dec 11 17:10:42 2020
+start find_clasters_by_ierarh --- Fri Dec 11 17:10:42 2020
+finish find_clasters_by_ierarh --- Fri Dec 11 17:10:46 2020
+get command write --- Fri Dec 11 17:10:46 2020
+
+New session --- Fri Dec 11 17:10:53 2020
+gen field --- Fri Dec 11 17:10:53 2020
+gen cloud arround (-3,-3) with Dispersia po x y 1 0.5 with 100 points --- Fri Dec 11 17:10:53 2020
+gen cloud arround (3,3) with Dispersia po x y 0.5 1 with 100 points --- Fri Dec 11 17:10:53 2020
+start find_clasters_by_ierarh --- Fri Dec 11 17:10:53 2020
+finish find_clasters_by_ierarh --- Fri Dec 11 17:10:54 2020
+get command write --- Fri Dec 11 17:10:54 2020
+
+
+New session --- Fri Dec 11 17:11:46 2020
+gen field --- Fri Dec 11 17:11:56 2020
+gen cloud arround (-3,-3) with Dispersia po x y 1 0.5 with 100 points --- Fri Dec 11 17:11:56 2020
+gen cloud arround (3,3) with Dispersia po x y 0.5 1 with 100 points --- Fri Dec 11 17:11:56 2020
+start find_clasters_by_ierarh --- Fri Dec 11 17:11:56 2020
+finish find_clasters_by_ierarh --- Fri Dec 11 17:11:57 2020
+get command write --- Fri Dec 11 17:11:57 2020
+Do not understand command = exit --- Fri Dec 11 17:12:07 2020
+exit --- Fri Dec 11 17:12:07 2020
+
+
+New session --- Fri Dec 11 23:55:03 2020
+gen field --- Fri Dec 11 23:55:03 2020
+gen cloud arround (-3,-3) with Dispersia po x y 1 0.5 with 100 points --- Fri Dec 11 23:55:03 2020
+gen cloud arround (3,3) with Dispersia po x y 0.5 1 with 100 points --- Fri Dec 11 23:55:03 2020
+start find_clasters_by_ierarh --- Fri Dec 11 23:55:03 2020
+finish find_clasters_by_ierarh --- Fri Dec 11 23:55:03 2020
+get command write --- Fri Dec 11 23:55:03 2020
+exit --- Fri Dec 11 23:55:03 2020
+
+New session --- Sun Dec 13 20:51:17 2020
+gen field --- Sun Dec 13 20:51:17 2020
+gen cloud arround (-3,-3) with Dispersia po x y 1 0.5 with 100 points --- Sun Dec 13 20:51:17 2020
+gen cloud arround (3,3) with Dispersia po x y 0.5 1 with 100 points --- Sun Dec 13 20:51:17 2020
+start find_clasters_by_forel  clasters=1R= 1 --- Sun Dec 13 20:51:17 2020
+get command write --- Sun Dec 13 20:51:17 2020
+exit --- Sun Dec 13 20:51:17 2020
+
+New session --- Sun Dec 13 20:53:44 2020
+gen field --- Sun Dec 13 20:53:44 2020
+gen cloud arround (-3,-3) with Dispersia po x y 1 0.5 with 100 points --- Sun Dec 13 20:53:44 2020
+gen cloud arround (3,3) with Dispersia po x y 0.5 1 with 100 points --- Sun Dec 13 20:53:44 2020
+start find_clasters_by_forel  clasters=1R= 1 --- Sun Dec 13 20:53:44 2020
+get command write --- Sun Dec 13 20:53:44 2020
+exit --- Sun Dec 13 20:53:44 2020
+
+New session --- Sun Dec 13 20:55:04 2020
+gen field --- Sun Dec 13 20:55:04 2020
+gen cloud arround (-3,-3) with Dispersia po x y 1 0.5 with 100 points --- Sun Dec 13 20:55:04 2020
+gen cloud arround (3,3) with Dispersia po x y 0.5 1 with 100 points --- Sun Dec 13 20:55:04 2020
+start find_clasters_by_forel  clasters=1R= 1 --- Sun Dec 13 20:55:04 2020
+get command write --- Sun Dec 13 20:55:04 2020
+exit --- Sun Dec 13 20:55:04 2020
+
+New session --- Mon Dec 14 14:56:01 2020
+gen field --- Mon Dec 14 14:56:01 2020
+gen cloud arround (-3,-3) with Dispersia po x y 1 0.5 with 100 points --- Mon Dec 14 14:56:01 2020
+gen cloud arround (3,3) with Dispersia po x y 0.5 1 with 100 points --- Mon Dec 14 14:56:01 2020
+start find_clasters_by_forel  clasters=1R= 1 --- Mon Dec 14 14:56:01 2020
+get command write --- Mon Dec 14 14:56:01 2020
+exit --- Mon Dec 14 14:56:01 2020
+
+New session --- Mon Dec 14 14:56:58 2020
+gen field --- Mon Dec 14 14:56:58 2020
+gen cloud arround (-3,-3) with Dispersia po x y 1 0.5 with 100 points --- Mon Dec 14 14:56:58 2020
+gen cloud arround (3,3) with Dispersia po x y 0.5 1 with 100 points --- Mon Dec 14 14:56:58 2020
+start find_clasters_by_forel  clasters=1R= 1 --- Mon Dec 14 14:56:58 2020
+get command write --- Mon Dec 14 14:56:58 2020
+exit --- Mon Dec 14 14:56:58 2020
+
+New session --- Mon Dec 14 14:57:48 2020
+gen field --- Mon Dec 14 14:57:48 2020
+gen cloud arround (-3,-3) with Dispersia po x y 1 0.5 with 100 points --- Mon Dec 14 14:57:48 2020
+gen cloud arround (3,3) with Dispersia po x y 0.5 1 with 100 points --- Mon Dec 14 14:57:48 2020
+start find_clasters_by_forel  clasters=1R= 1 --- Mon Dec 14 14:57:48 2020
+get command write --- Mon Dec 14 14:58:26 2020
+exit --- Mon Dec 14 14:58:26 2020
+
+
+New session --- Mon Dec 14 15:01:10 2020
+gen field --- Mon Dec 14 15:01:10 2020
+gen cloud arround (-3,-3) with Dispersia po x y 1 0.5 with 100 points --- Mon Dec 14 15:01:10 2020
+gen cloud arround (3,3) with Dispersia po x y 0.5 1 with 100 points --- Mon Dec 14 15:01:10 2020
+start find_clasters_by_forel  clasters=2R= 1 --- Mon Dec 14 15:01:10 2020
+get command write --- Mon Dec 14 15:01:14 2020
+exit --- Mon Dec 14 15:01:14 2020
+
+
+
+New session --- Mon Dec 14 15:02:28 2020
+gen field --- Mon Dec 14 15:02:28 2020
+gen cloud arround (-3,-3) with Dispersia po x y 1 0.5 with 100 points --- Mon Dec 14 15:02:28 2020
+gen cloud arround (3,3) with Dispersia po x y 0.5 1 with 100 points --- Mon Dec 14 15:02:28 2020
+start find_clasters_by_forel  clasters=1R= 1 --- Mon Dec 14 15:02:28 2020
+get command write --- Mon Dec 14 15:02:31 2020
+exit --- Mon Dec 14 15:02:31 2020
+
+
+New session --- Mon Dec 14 15:22:16 2020
+gen field --- Mon Dec 14 15:22:16 2020
+gen cloud arround (0,0) with Dispersia po x y 1 1 with 500 points --- Mon Dec 14 15:22:16 2020
+start find_clasters_by_forel  clasters=1R= 1 --- Mon Dec 14 15:22:16 2020
+get command write --- Mon Dec 14 15:22:26 2020
+exit --- Mon Dec 14 15:22:26 2020
+
+
+
+
+
+New session --- Mon Dec 14 15:42:33 2020
+gen field --- Mon Dec 14 15:42:33 2020
+gen cloud arround (0,0) with Dispersia po x y 1 1 with 500 points --- Mon Dec 14 15:42:33 2020
+start find_clasters_by_forel  clasters=1R= 1 --- Mon Dec 14 15:42:33 2020
+get command write --- Mon Dec 14 15:42:33 2020
+exit --- Mon Dec 14 15:42:33 2020
+
+New session --- Mon Dec 14 16:11:44 2020
+gen field --- Mon Dec 14 16:11:44 2020
+gen cloud arround (0,0) with Dispersia po x y 1 1 with 300 points --- Mon Dec 14 16:11:44 2020
+gen cloud arround (4,0) with Dispersia po x y 1 3 with 300 points --- Mon Dec 14 16:11:44 2020
+gen cloud arround (10,0) with Dispersia po x y 3 1 with 400 points --- Mon Dec 14 16:11:44 2020
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Mon Dec 14 16:11:44 2020
+finish find_clasters_by_kmeans_core --- Mon Dec 14 16:12:03 2020
+get command write --- Mon Dec 14 16:12:03 2020
+exit --- Mon Dec 14 16:12:03 2020
+
+
+
+
+
+
+New session --- Mon Dec 14 16:16:22 2020
+gen field --- Mon Dec 14 16:16:22 2020
+gen cloud arround (0,0) with Dispersia po x y 1 1 with 300 points --- Mon Dec 14 16:16:22 2020
+gen cloud arround (0,10) with Dispersia po x y 3 1 with 400 points --- Mon Dec 14 16:16:22 2020
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Mon Dec 14 16:16:22 2020
+finish find_clasters_by_kmeans_core --- Mon Dec 14 16:16:28 2020
+get command write --- Mon Dec 14 16:16:28 2020
+exit --- Mon Dec 14 16:16:28 2020
+
+New session --- Mon Dec 14 16:17:33 2020
+gen field --- Mon Dec 14 16:17:33 2020
+gen cloud arround (2,2) with Dispersia po x y 1 1 with 300 points --- Mon Dec 14 16:17:33 2020
+gen cloud arround (5,10) with Dispersia po x y 3 1 with 400 points --- Mon Dec 14 16:17:33 2020
+gen cloud arround (10,5) with Dispersia po x y 1 3 with 400 points --- Mon Dec 14 16:17:33 2020
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Mon Dec 14 16:17:33 2020
+finish find_clasters_by_kmeans_core --- Mon Dec 14 16:17:47 2020
+get command write --- Mon Dec 14 16:17:47 2020
+exit --- Mon Dec 14 16:17:47 2020
+
+New session --- Mon Dec 14 16:18:31 2020
+gen field --- Mon Dec 14 16:18:31 2020
+gen cloud arround (2,2) with Dispersia po x y 1 1 with 300 points --- Mon Dec 14 16:18:31 2020
+gen cloud arround (5,10) with Dispersia po x y 3 1 with 400 points --- Mon Dec 14 16:18:31 2020
+gen cloud arround (10,5) with Dispersia po x y 1 3 with 400 points --- Mon Dec 14 16:18:31 2020
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Mon Dec 14 16:18:31 2020
+finish find_clasters_by_kmeans_core --- Mon Dec 14 16:18:40 2020
+get command write --- Mon Dec 14 16:18:40 2020
+exit --- Mon Dec 14 16:18:40 2020
+
+New session --- Mon Dec 14 16:19:35 2020
+gen field --- Mon Dec 14 16:19:35 2020
+gen cloud arround (2,2) with Dispersia po x y 1 1 with 300 points --- Mon Dec 14 16:19:35 2020
+gen cloud arround (5,10) with Dispersia po x y 3 1 with 400 points --- Mon Dec 14 16:19:35 2020
+gen cloud arround (10,5) with Dispersia po x y 1 3 with 400 points --- Mon Dec 14 16:19:35 2020
+start find_clasters_by_kmeans_core clasters=2  cores=2 --- Mon Dec 14 16:19:35 2020
+finish find_clasters_by_kmeans_core --- Mon Dec 14 16:19:45 2020
+get command write --- Mon Dec 14 16:19:45 2020
+exit --- Mon Dec 14 16:19:45 2020
+
+
+New session --- Mon Dec 14 16:20:44 2020
+gen field --- Mon Dec 14 16:20:44 2020
+gen cloud arround (2,2) with Dispersia po x y 1 1 with 300 points --- Mon Dec 14 16:20:44 2020
+gen cloud arround (5,10) with Dispersia po x y 3 1 with 400 points --- Mon Dec 14 16:20:44 2020
+gen cloud arround (10,5) with Dispersia po x y 1 3 with 400 points --- Mon Dec 14 16:20:44 2020
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Mon Dec 14 16:20:44 2020
+finish find_clasters_by_kmeans_core --- Mon Dec 14 16:20:55 2020
+get command write --- Mon Dec 14 16:20:55 2020
+exit --- Mon Dec 14 16:20:55 2020
+
+New session --- Mon Dec 14 16:25:57 2020
+gen field --- Mon Dec 14 16:25:57 2020
+gen cloud arround (2,2) with Dispersia po x y 1 1 with 300 points --- Mon Dec 14 16:25:57 2020
+gen cloud arround (5,10) with Dispersia po x y 3 1 with 400 points --- Mon Dec 14 16:25:57 2020
+gen cloud arround (10,5) with Dispersia po x y 1 3 with 400 points --- Mon Dec 14 16:25:57 2020
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Mon Dec 14 16:25:57 2020
+finish find_clasters_by_kmeans_core --- Mon Dec 14 16:26:07 2020
+get command write --- Mon Dec 14 16:26:07 2020
+exit --- Mon Dec 14 16:26:07 2020
+
+New session --- Mon Dec 14 16:29:42 2020
+gen field --- Mon Dec 14 16:29:42 2020
+gen cloud arround (2,2) with Dispersia po x y 1 1 with 300 points --- Mon Dec 14 16:29:42 2020
+gen cloud arround (5,10) with Dispersia po x y 3 1 with 400 points --- Mon Dec 14 16:29:42 2020
+gen cloud arround (10,5) with Dispersia po x y 1 3 with 400 points --- Mon Dec 14 16:29:42 2020
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Mon Dec 14 16:29:42 2020
+finish find_clasters_by_kmeans_core --- Mon Dec 14 16:29:49 2020
+get command write --- Mon Dec 14 16:29:49 2020
+exit --- Mon Dec 14 16:29:49 2020
+
+New session --- Mon Dec 14 16:43:17 2020
+gen field --- Mon Dec 14 16:43:17 2020
+gen cloud arround (2,2) with Dispersia po x y 1 1 with 300 points --- Mon Dec 14 16:43:17 2020
+gen cloud arround (5,10) with Dispersia po x y 3 1 with 400 points --- Mon Dec 14 16:43:17 2020
+gen cloud arround (10,5) with Dispersia po x y 1 3 with 400 points --- Mon Dec 14 16:43:17 2020
+start find_clasters_by_EM  clasters=3 --- Mon Dec 14 16:43:17 2020
+finish find_clasters_by_EM --- Mon Dec 14 16:44:07 2020
+get command write --- Mon Dec 14 16:44:07 2020
+exit --- Mon Dec 14 16:44:07 2020
+
+New session --- Mon Dec 14 16:46:00 2020
+gen field --- Mon Dec 14 16:46:00 2020
+gen cloud arround (2,2) with Dispersia po x y 1 1 with 300 points --- Mon Dec 14 16:46:00 2020
+gen cloud arround (5,10) with Dispersia po x y 3 1 with 400 points --- Mon Dec 14 16:46:00 2020
+gen cloud arround (10,5) with Dispersia po x y 1 3 with 400 points --- Mon Dec 14 16:46:00 2020
+start find_clasters_by_EM  clasters=3 --- Mon Dec 14 16:46:00 2020
+finish find_clasters_by_EM --- Mon Dec 14 16:46:53 2020
+get command write --- Mon Dec 14 16:46:53 2020
+exit --- Mon Dec 14 16:46:53 2020
+
+New session --- Mon Dec 14 16:50:32 2020
+gen field --- Mon Dec 14 16:50:32 2020
+gen cloud arround (7,7) with Dispersia po x y 3 0 with 500 points --- Mon Dec 14 16:50:32 2020
+gen cloud arround (7,7) with Dispersia po x y 0 3 with 500 points --- Mon Dec 14 16:50:32 2020
+start find_clasters_by_EM  clasters=2 --- Mon Dec 14 16:50:32 2020
+finish find_clasters_by_EM --- Mon Dec 14 16:50:58 2020
+get command write --- Mon Dec 14 16:50:58 2020
+exit --- Mon Dec 14 16:50:58 2020
+
+New session --- Mon Dec 14 16:52:00 2020
+gen field --- Mon Dec 14 16:52:00 2020
+gen cloud arround (7,7) with Dispersia po x y 3 1 with 500 points --- Mon Dec 14 16:52:00 2020
+gen cloud arround (7,7) with Dispersia po x y 1 3 with 500 points --- Mon Dec 14 16:52:00 2020
+start find_clasters_by_EM  clasters=2 --- Mon Dec 14 16:52:00 2020
+finish find_clasters_by_EM --- Mon Dec 14 16:52:25 2020
+get command write --- Mon Dec 14 16:52:25 2020
+exit --- Mon Dec 14 16:52:25 2020
+
+New session --- Mon Dec 14 16:53:22 2020
+gen field --- Mon Dec 14 16:53:22 2020
+gen cloud arround (7,7) with Dispersia po x y 3 1 with 500 points --- Mon Dec 14 16:53:22 2020
+gen cloud arround (7,7) with Dispersia po x y 1 3 with 500 points --- Mon Dec 14 16:53:22 2020
+start find_clasters_by_EM  clasters=2 --- Mon Dec 14 16:53:22 2020
+finish find_clasters_by_EM --- Mon Dec 14 16:53:48 2020
+get command write --- Mon Dec 14 16:53:48 2020
+exit --- Mon Dec 14 16:53:48 2020
+
+New session --- Mon Dec 14 17:13:17 2020
+gen field --- Mon Dec 14 17:13:17 2020
+gen cloud arround (7,7) with Dispersia po x y 4 4 with 3000 points --- Mon Dec 14 17:13:17 2020
+start find_clasters_by_kmeans_core clasters=10  cores=10 --- Mon Dec 14 17:13:17 2020
+finish find_clasters_by_kmeans_core --- Mon Dec 14 17:13:30 2020
+get command write --- Mon Dec 14 17:13:30 2020
+exit --- Mon Dec 14 17:13:30 2020
+
+New session --- Mon Dec 14 17:15:06 2020
+gen field --- Mon Dec 14 17:15:06 2020
+gen cloud arround (7,7) with Dispersia po x y 4 4 with 3000 points --- Mon Dec 14 17:15:06 2020
+start find_clasters_by_kmeans_core clasters=10  cores=10 --- Mon Dec 14 17:15:06 2020
+finish find_clasters_by_kmeans_core --- Mon Dec 14 17:15:19 2020
+get command write --- Mon Dec 14 17:15:19 2020
+exit --- Mon Dec 14 17:15:19 2020
+
+New session --- Mon Dec 14 17:16:07 2020
+gen field --- Mon Dec 14 17:16:07 2020
+gen cloud arround (7,7) with Dispersia po x y 4 4 with 3000 points --- Mon Dec 14 17:16:07 2020
+start find_clasters_by_kmeans clasters=10 --- Mon Dec 14 17:16:07 2020
+finish find_clasters_by_kmeans --- Mon Dec 14 17:16:07 2020
+get command write --- Mon Dec 14 17:16:07 2020
+exit --- Mon Dec 14 17:16:07 2020
+
+New session --- Mon Dec 14 17:23:59 2020
+gen field --- Mon Dec 14 17:23:59 2020
+gen cloud arround (7,7) with Dispersia po x y 4 4 with 3000 points --- Mon Dec 14 17:23:59 2020
+Do not understand command = find_clasters_by_farel --- Mon Dec 14 17:23:59 2020
+Do not understand command = 1 --- Mon Dec 14 17:23:59 2020
+Do not understand command = 3 --- Mon Dec 14 17:23:59 2020
+get command write --- Mon Dec 14 17:23:59 2020
+exit --- Mon Dec 14 17:23:59 2020
+
+New session --- Mon Dec 14 17:24:44 2020
+gen field --- Mon Dec 14 17:24:44 2020
+gen cloud arround (7,7) with Dispersia po x y 4 4 with 3000 points --- Mon Dec 14 17:24:44 2020
+start find_clasters_by_forel  clasters=3R= 1 --- Mon Dec 14 17:24:44 2020
+get command write --- Mon Dec 14 17:24:44 2020
+exit --- Mon Dec 14 17:24:44 2020
+
+New session --- Mon Dec 14 17:26:06 2020
+gen field --- Mon Dec 14 17:26:06 2020
+gen cloud arround (9,9) with Dispersia po x y 1 1 with 300 points --- Mon Dec 14 17:26:06 2020
+gen cloud arround (2,4) with Dispersia po x y 4 1 with 300 points --- Mon Dec 14 17:26:06 2020
+start find_clasters_by_forel  clasters=3R= 1 --- Mon Dec 14 17:26:06 2020
+get command write --- Mon Dec 14 17:26:06 2020
+exit --- Mon Dec 14 17:26:06 2020
+
+New session --- Mon Dec 14 17:26:22 2020
+gen field --- Mon Dec 14 17:26:22 2020
+gen cloud arround (-9,9) with Dispersia po x y 1 1 with 300 points --- Mon Dec 14 17:26:22 2020
+gen cloud arround (2,4) with Dispersia po x y 4 1 with 300 points --- Mon Dec 14 17:26:22 2020
+start find_clasters_by_forel  clasters=3R= 1 --- Mon Dec 14 17:26:22 2020
+get command write --- Mon Dec 14 17:26:22 2020
+exit --- Mon Dec 14 17:26:22 2020
+
+New session --- Mon Dec 14 17:26:35 2020
+gen field --- Mon Dec 14 17:26:35 2020
+gen cloud arround (-9,-9) with Dispersia po x y 1 1 with 300 points --- Mon Dec 14 17:26:35 2020
+gen cloud arround (2,4) with Dispersia po x y 4 1 with 300 points --- Mon Dec 14 17:26:35 2020
+start find_clasters_by_forel  clasters=3R= 1 --- Mon Dec 14 17:26:35 2020
+get command write --- Mon Dec 14 17:26:35 2020
+exit --- Mon Dec 14 17:26:35 2020
+
+New session --- Mon Dec 14 17:27:19 2020
+gen field --- Mon Dec 14 17:27:19 2020
+gen cloud arround (-7,-7) with Dispersia po x y 1 1 with 300 points --- Mon Dec 14 17:27:19 2020
+gen cloud arround (2,4) with Dispersia po x y 2 1 with 600 points --- Mon Dec 14 17:27:19 2020
+start find_clasters_by_forel  clasters=3R= 1 --- Mon Dec 14 17:27:19 2020
+get command write --- Mon Dec 14 17:27:19 2020
+exit --- Mon Dec 14 17:27:19 2020
+
+New session --- Mon Dec 14 17:29:27 2020
+gen field --- Mon Dec 14 17:29:27 2020
+gen cloud arround (-7,-7) with Dispersia po x y 1 1 with 300 points --- Mon Dec 14 17:29:27 2020
+gen cloud arround (2,4) with Dispersia po x y 2 1 with 600 points --- Mon Dec 14 17:29:27 2020
+start find_clasters_by_forel  clasters=3R= 1 --- Mon Dec 14 17:29:27 2020
+get command write --- Mon Dec 14 17:29:27 2020
+exit --- Mon Dec 14 17:29:27 2020
+
+New session --- Fri Apr  2 12:27:16 2021
+gen field --- Fri Apr  2 12:27:16 2021
+gen cloud arround (-7,-7) with Dispersia po x y 1 1 with 300 points --- Fri Apr  2 12:27:16 2021
+gen cloud arround (2,4) with Dispersia po x y 2 1 with 600 points --- Fri Apr  2 12:27:16 2021
+start find_clasters_by_forel  clasters=3R= 1 --- Fri Apr  2 12:27:16 2021
+get command write --- Fri Apr  2 12:27:16 2021
+exit --- Fri Apr  2 12:27:16 2021
+
+New session --- Fri Apr  2 16:48:24 2021
+gen field --- Fri Apr  2 16:48:24 2021
+gen cloud arround (0,0) with Dispersia po x y 3 3 with 500 points --- Fri Apr  2 16:48:24 2021
+start find_clasters_by_kmeans_core clasters=1  cores=1 --- Fri Apr  2 16:48:24 2021
+finish find_clasters_by_kmeans_core --- Fri Apr  2 16:48:28 2021
+get command write --- Fri Apr  2 16:48:28 2021
+exit --- Fri Apr  2 16:48:28 2021
+
+New session --- Fri Apr  2 16:53:06 2021
+gen field --- Fri Apr  2 16:53:06 2021
+gen cloud arround (0,0) with Dispersia po x y 3 3 with 500 points --- Fri Apr  2 16:53:06 2021
+start find_clasters_by_kmeans_core clasters=1  cores=1 --- Fri Apr  2 16:53:06 2021
+finish find_clasters_by_kmeans_core --- Fri Apr  2 16:53:11 2021
+get command write --- Fri Apr  2 16:53:11 2021
+exit --- Fri Apr  2 16:53:11 2021
+
+New session --- Fri Apr  2 17:09:24 2021
+gen field --- Fri Apr  2 17:09:24 2021
+gen cloud arround (0,0) with Dispersia po x y 3 3 with 500 points --- Fri Apr  2 17:09:24 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Fri Apr  2 17:09:24 2021
+finish find_clasters_by_kmeans_core --- Fri Apr  2 17:09:26 2021
+get command write --- Fri Apr  2 17:09:26 2021
+exit --- Fri Apr  2 17:09:26 2021
+
+New session --- Fri Apr  2 17:12:15 2021
+gen field --- Fri Apr  2 17:12:15 2021
+gen cloud arround (0,0) with Dispersia po x y 1 1 with 500 points --- Fri Apr  2 17:12:15 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Fri Apr  2 17:12:15 2021
+finish find_clasters_by_kmeans_core --- Fri Apr  2 17:12:18 2021
+get command write --- Fri Apr  2 17:12:18 2021
+exit --- Fri Apr  2 17:12:18 2021
+
+New session --- Fri Apr  2 17:13:24 2021
+gen field --- Fri Apr  2 17:13:24 2021
+gen cloud arround (0,0) with Dispersia po x y 1 1 with 500 points --- Fri Apr  2 17:13:24 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Fri Apr  2 17:13:24 2021
+finish find_clasters_by_kmeans_core --- Fri Apr  2 17:13:26 2021
+get command write --- Fri Apr  2 17:13:26 2021
+exit --- Fri Apr  2 17:13:26 2021
+
+New session --- Fri Apr  2 17:15:07 2021
+gen field --- Fri Apr  2 17:15:07 2021
+gen cloud arround (0,0) with Dispersia po x y 1 1 with 500 points --- Fri Apr  2 17:15:07 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Fri Apr  2 17:15:07 2021
+finish find_clasters_by_kmeans_core --- Fri Apr  2 17:15:10 2021
+get command write --- Fri Apr  2 17:15:10 2021
+exit --- Fri Apr  2 17:15:10 2021
+
+New session --- Fri Apr  2 17:15:12 2021
+gen field --- Fri Apr  2 17:15:12 2021
+gen cloud arround (0,0) with Dispersia po x y 1 1 with 500 points --- Fri Apr  2 17:15:12 2021
+start find_clasters_by_kmeans_core clasters=1  cores=1 --- Fri Apr  2 17:15:12 2021
+finish find_clasters_by_kmeans_core --- Fri Apr  2 17:15:16 2021
+get command write --- Fri Apr  2 17:15:16 2021
+exit --- Fri Apr  2 17:15:16 2021
+
+New session --- Fri Apr  2 17:18:03 2021
+gen field --- Fri Apr  2 17:18:03 2021
+gen cloud arround (0,0) with Dispersia po x y 1 1 with 500 points --- Fri Apr  2 17:18:03 2021
+start find_clasters_by_EM  clasters=3 --- Fri Apr  2 17:18:03 2021
+finish find_clasters_by_EM --- Fri Apr  2 17:18:25 2021
+get command write --- Fri Apr  2 17:18:25 2021
+exit --- Fri Apr  2 17:18:25 2021
+
+New session --- Fri Apr  2 17:19:33 2021
+gen field --- Fri Apr  2 17:19:33 2021
+gen cloud arround (0,0) with Dispersia po x y 1.5 1.5 with 400 points --- Fri Apr  2 17:19:33 2021
+start find_clasters_by_EM  clasters=3 --- Fri Apr  2 17:19:33 2021
+finish find_clasters_by_EM --- Fri Apr  2 17:19:50 2021
+get command write --- Fri Apr  2 17:19:51 2021
+exit --- Fri Apr  2 17:19:51 2021
+
+New session --- Fri Apr  2 17:26:43 2021
+gen field --- Fri Apr  2 17:26:43 2021
+gen cloud arround (0,0) with Dispersia po x y 1.5 1.5 with 400 points --- Fri Apr  2 17:26:43 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Fri Apr  2 17:26:43 2021
+finish find_clasters_by_kmeans_core --- Fri Apr  2 17:26:44 2021
+get command write --- Fri Apr  2 17:26:44 2021
+exit --- Fri Apr  2 17:26:44 2021
+
+New session --- Fri Apr  2 17:29:07 2021
+gen field --- Fri Apr  2 17:29:07 2021
+gen cloud arround (0,0) with Dispersia po x y 1.5 1.5 with 400 points --- Fri Apr  2 17:29:07 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Fri Apr  2 17:29:07 2021
+finish find_clasters_by_kmeans_core --- Fri Apr  2 17:29:09 2021
+get command write --- Fri Apr  2 17:29:09 2021
+exit --- Fri Apr  2 17:29:09 2021
+
+New session --- Fri Apr  2 17:31:36 2021
+gen field --- Fri Apr  2 17:31:36 2021
+gen cloud arround (0,0) with Dispersia po x y 1.5 1.5 with 400 points --- Fri Apr  2 17:31:36 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Fri Apr  2 17:31:36 2021
+finish find_clasters_by_kmeans_core --- Fri Apr  2 17:31:38 2021
+get command write --- Fri Apr  2 17:31:38 2021
+exit --- Fri Apr  2 17:31:38 2021
+
+New session --- Fri Apr  2 17:39:04 2021
+gen field --- Fri Apr  2 17:39:04 2021
+gen cloud arround (0,0) with Dispersia po x y 1.5 1.5 with 400 points --- Fri Apr  2 17:39:04 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Fri Apr  2 17:39:04 2021
+finish find_clasters_by_kmeans_core --- Fri Apr  2 17:39:06 2021
+get command write --- Fri Apr  2 17:39:06 2021
+exit --- Fri Apr  2 17:39:06 2021
+
+New session --- Fri Apr  2 17:39:40 2021
+gen field --- Fri Apr  2 17:39:40 2021
+gen cloud arround (0,0) with Dispersia po x y 1.5 1.5 with 400 points --- Fri Apr  2 17:39:40 2021
+start find_clasters_by_kmeans_core clasters=1  cores=1 --- Fri Apr  2 17:39:40 2021
+finish find_clasters_by_kmeans_core --- Fri Apr  2 17:39:43 2021
+get command write --- Fri Apr  2 17:39:43 2021
+exit --- Fri Apr  2 17:39:43 2021
+
+New session --- Fri Apr  2 17:41:20 2021
+gen field --- Fri Apr  2 17:41:20 2021
+gen cloud arround (0,0) with Dispersia po x y 1.5 1.5 with 400 points --- Fri Apr  2 17:41:20 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Fri Apr  2 17:41:20 2021
+finish find_clasters_by_kmeans_core --- Fri Apr  2 17:41:23 2021
+get command write --- Fri Apr  2 17:41:24 2021
+exit --- Fri Apr  2 17:41:24 2021
+
+New session --- Fri Apr 16 15:19:39 2021
+gen field --- Fri Apr 16 15:19:39 2021
+gen cloud arround (0,0) with Dispersia po x y 1.5 1.5 with 400 points --- Fri Apr 16 15:19:39 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Fri Apr 16 15:19:39 2021
+finish find_clasters_by_kmeans_core --- Fri Apr 16 15:19:42 2021
+get command write --- Fri Apr 16 15:19:42 2021
+exit --- Fri Apr 16 15:19:42 2021
+
+New session --- Fri Apr 16 19:12:55 2021
+gen field --- Fri Apr 16 19:12:55 2021
+gen cloud arround (0,0) with Dispersia po x y 1.5 1.5 with 400 points --- Fri Apr 16 19:12:55 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Fri Apr 16 19:12:55 2021
+finish find_clasters_by_kmeans_core --- Fri Apr 16 19:12:58 2021
+get command write --- Fri Apr 16 19:12:58 2021
+exit --- Fri Apr 16 19:12:58 2021
+
+New session --- Fri Apr 16 19:13:01 2021
+gen field --- Fri Apr 16 19:13:01 2021
+gen cloud arround (0,0) with Dispersia po x y 1.5 1.5 with 400 points --- Fri Apr 16 19:13:01 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Fri Apr 16 19:13:01 2021
+finish find_clasters_by_kmeans_core --- Fri Apr 16 19:13:05 2021
+get command write --- Fri Apr 16 19:13:05 2021
+exit --- Fri Apr 16 19:13:05 2021
+
+New session --- Fri Apr 16 19:13:10 2021
+gen field --- Fri Apr 16 19:13:10 2021
+gen cloud arround (0,0) with Dispersia po x y 1.5 1.5 with 400 points --- Fri Apr 16 19:13:10 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Fri Apr 16 19:13:10 2021
+finish find_clasters_by_kmeans_core --- Fri Apr 16 19:13:14 2021
+get command write --- Fri Apr 16 19:13:14 2021
+exit --- Fri Apr 16 19:13:14 2021
+
+New session --- Fri Apr 16 19:13:38 2021
+gen field --- Fri Apr 16 19:13:38 2021
+gen cloud arround (0,0) with Dispersia po x y 1.5 1.5 with 400 points --- Fri Apr 16 19:13:38 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Fri Apr 16 19:13:38 2021
+finish find_clasters_by_kmeans_core --- Fri Apr 16 19:13:41 2021
+get command write --- Fri Apr 16 19:13:41 2021
+exit --- Fri Apr 16 19:13:41 2021
+
+New session --- Fri Apr 16 19:13:46 2021
+gen field --- Fri Apr 16 19:13:46 2021
+gen cloud arround (0,0) with Dispersia po x y 1.5 1.5 with 400 points --- Fri Apr 16 19:13:46 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Fri Apr 16 19:13:46 2021
+finish find_clasters_by_kmeans_core --- Fri Apr 16 19:13:50 2021
+get command write --- Fri Apr 16 19:13:50 2021
+exit --- Fri Apr 16 19:13:50 2021
+
+
+
+
+
+
+
+
+New session --- Fri Apr 16 19:49:51 2021
+gen field --- Fri Apr 16 19:49:51 2021
+Do not understand command = Ccloud --- Fri Apr 16 19:50:08 2021
+get command write --- Fri Apr 16 19:50:08 2021
+exit --- Fri Apr 16 19:50:10 2021
+
+
+
+New session --- Fri Apr 16 20:24:04 2021
+gen field --- Fri Apr 16 20:24:04 2021
+get command write --- Fri Apr 16 20:24:09 2021
+exit --- Fri Apr 16 20:24:25 2021
+
+
+
+
+New session --- Fri Apr 16 20:42:24 2021
+gen field --- Fri Apr 16 20:42:24 2021
+gen cloud arround (-2,-2) with Dispersia po x y 2.5 1.5 with 250 points --- Fri Apr 16 20:42:24 2021
+gen cloud arround (2,2) with Dispersia po x y 1.5 2.5 with 250 points --- Fri Apr 16 20:42:24 2021
+get command write --- Fri Apr 16 20:42:24 2021
+exit --- Fri Apr 16 20:42:28 2021
+
+
+New session --- Fri Apr 16 23:28:41 2021
+gen field --- Fri Apr 16 23:28:41 2021
+gen cloud arround (-2,-2) with Dispersia po x y 2.5 1.5 with 100 points --- Fri Apr 16 23:28:41 2021
+gen cloud arround (2,2) with Dispersia po x y 1.5 2.5 with 100 points --- Fri Apr 16 23:28:41 2021
+gen cloud arround (3,3) with Dispersia po x y 1 1 with 100 points --- Fri Apr 16 23:28:41 2021
+gen cloud arround (0,0) with Dispersia po x y 3 3 with 100 points --- Fri Apr 16 23:28:41 2021
+gen cloud arround (-4,2) with Dispersia po x y 0.5 0.5 with 100 points --- Fri Apr 16 23:28:41 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Fri Apr 16 23:28:41 2021
+finish find_clasters_by_kmeans_core --- Fri Apr 16 23:28:45 2021
+get command write --- Fri Apr 16 23:28:45 2021
+exit --- Fri Apr 16 23:28:49 2021
+
+
+
+New session --- Fri Apr 16 23:29:48 2021
+gen field --- Fri Apr 16 23:29:48 2021
+gen cloud arround (-2,-2) with Dispersia po x y 2.5 1.5 with 100 points --- Fri Apr 16 23:29:48 2021
+gen cloud arround (2,2) with Dispersia po x y 1.5 2.5 with 100 points --- Fri Apr 16 23:29:48 2021
+gen cloud arround (3,3) with Dispersia po x y 1 1 with 100 points --- Fri Apr 16 23:29:48 2021
+gen cloud arround (0,0) with Dispersia po x y 3 3 with 100 points --- Fri Apr 16 23:29:48 2021
+gen cloud arround (-4,2) with Dispersia po x y 0.5 0.5 with 100 points --- Fri Apr 16 23:29:48 2021
+start find_clasters_by_kmeans_core clasters=4  cores=4 --- Fri Apr 16 23:29:48 2021
+finish find_clasters_by_kmeans_core --- Fri Apr 16 23:29:52 2021
+get command write --- Fri Apr 16 23:29:52 2021
+exit --- Fri Apr 16 23:29:57 2021
+
+New session --- Fri Apr 16 23:30:40 2021
+gen field --- Fri Apr 16 23:30:40 2021
+gen cloud arround (-2,-2) with Dispersia po x y 0.5 0.5 with 100 points --- Fri Apr 16 23:30:40 2021
+gen cloud arround (2,2) with Dispersia po x y 1.5 2.5 with 100 points --- Fri Apr 16 23:30:40 2021
+gen cloud arround (3,3) with Dispersia po x y 1 1 with 100 points --- Fri Apr 16 23:30:40 2021
+gen cloud arround (0,0) with Dispersia po x y 0.5 0.5 with 100 points --- Fri Apr 16 23:30:40 2021
+gen cloud arround (-4,2) with Dispersia po x y 0.5 0.5 with 100 points --- Fri Apr 16 23:30:40 2021
+start find_clasters_by_kmeans_core clasters=4  cores=4 --- Fri Apr 16 23:30:40 2021
+finish find_clasters_by_kmeans_core --- Fri Apr 16 23:30:43 2021
+get command write --- Fri Apr 16 23:30:43 2021
+exit --- Fri Apr 16 23:30:43 2021
+
+New session --- Fri Apr 16 23:37:40 2021
+gen field --- Fri Apr 16 23:37:40 2021
+gen cloud arround (0,0) with Dispersia po x y 0.5 0.5 with 100 points --- Fri Apr 16 23:37:40 2021
+gen cloud arround (-4,2) with Dispersia po x y 0.5 0.5 with 100 points --- Fri Apr 16 23:37:40 2021
+start find_clasters_by_kmeans_core clasters=4  cores=4 --- Fri Apr 16 23:37:40 2021
+finish find_clasters_by_kmeans_core --- Fri Apr 16 23:37:41 2021
+get command write --- Fri Apr 16 23:37:41 2021
+exit --- Fri Apr 16 23:37:41 2021
+
+New session --- Fri Apr 16 23:38:08 2021
+gen field --- Fri Apr 16 23:38:08 2021
+gen cloud arround (0,0) with Dispersia po x y 0.5 1.5 with 100 points --- Fri Apr 16 23:38:08 2021
+gen cloud arround (-4,2) with Dispersia po x y 1.5 0.5 with 100 points --- Fri Apr 16 23:38:08 2021
+start find_clasters_by_kmeans_core clasters=4  cores=4 --- Fri Apr 16 23:38:08 2021
+finish find_clasters_by_kmeans_core --- Fri Apr 16 23:38:10 2021
+get command write --- Fri Apr 16 23:38:10 2021
+exit --- Fri Apr 16 23:38:10 2021
+
+New session --- Sat May  1 11:49:32 2021
+gen field --- Sat May  1 11:49:32 2021
+gen cloud arround (0,0) with Dispersia po x y 0.5 1.5 with 100 points --- Sat May  1 11:49:32 2021
+gen cloud arround (-4,2) with Dispersia po x y 1.5 0.5 with 100 points --- Sat May  1 11:49:32 2021
+start find_clasters_by_kmeans_core clasters=4  cores=4 --- Sat May  1 11:49:32 2021
+finish find_clasters_by_kmeans_core --- Sat May  1 11:49:33 2021
+get command write --- Sat May  1 11:49:33 2021
+exit --- Sat May  1 11:49:33 2021
+
+New session --- Sat May  1 13:09:41 2021
+gen field --- Sat May  1 13:09:41 2021
+Do not understand command = 4 --- Sat May  1 13:09:46 2021
+Do not understand command = 3 --- Sat May  1 13:09:46 2021
+get command write --- Sat May  1 13:09:46 2021
+exit --- Sat May  1 13:09:46 2021
+
+New session --- Sat May  1 16:05:42 2021
+gen field --- Sat May  1 16:05:42 2021
+get command write --- Sat May  1 16:05:46 2021
+exit --- Sat May  1 16:05:46 2021
+
+New session --- Sat May  1 16:07:01 2021
+gen field --- Sat May  1 16:07:01 2021
+Do not understand command = 3 --- Sat May  1 16:07:07 2021
+get command write --- Sat May  1 16:07:07 2021
+exit --- Sat May  1 16:07:07 2021
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+New session --- Sat May  1 16:53:09 2021
+gen field --- Sat May  1 16:53:09 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Sat May  1 16:53:17 2021
+finish find_clasters_by_kmeans_core --- Sat May  1 16:53:31 2021
+get command write --- Sat May  1 16:53:31 2021
+exit --- Sat May  1 16:53:31 2021
+
+
+
+
+
+
+
+
+
+
+New session --- Sun May  2 12:56:11 2021
+gen field --- Sun May  2 12:56:11 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Sun May  2 12:56:11 2021
+finish find_clasters_by_kmeans_core --- Sun May  2 12:56:24 2021
+get command write --- Sun May  2 12:56:24 2021
+exit --- Sun May  2 12:56:24 2021
+
+New session --- Sun May  2 12:56:57 2021
+gen field --- Sun May  2 12:56:57 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Sun May  2 12:56:57 2021
+finish find_clasters_by_kmeans_core --- Sun May  2 12:56:59 2021
+get command write --- Sun May  2 12:56:59 2021
+exit --- Sun May  2 12:56:59 2021
+
+New session --- Sun May  2 12:57:16 2021
+gen field --- Sun May  2 12:57:16 2021
+start find_clasters_by_kmeans_core clasters=3  cores=3 --- Sun May  2 12:57:16 2021
+finish find_clasters_by_kmeans_core --- Sun May  2 12:57:20 2021
+get command write --- Sun May  2 12:57:20 2021
+exit --- Sun May  2 12:57:20 2021
+
+New session --- Sun May  2 13:05:26 2021
+gen field --- Sun May  2 13:05:26 2021
+start find_clasters_by_EM  clasters=3 --- Sun May  2 13:05:26 2021
+finish find_clasters_by_EM --- Sun May  2 13:05:33 2021
+get command write --- Sun May  2 13:05:33 2021
+exit --- Sun May  2 13:05:33 2021
+
+New session --- Sun May  2 13:06:46 2021
+gen field --- Sun May  2 13:06:46 2021
+start find_clasters_by_EM  clasters=3 --- Sun May  2 13:06:46 2021
+finish find_clasters_by_EM --- Sun May  2 13:06:50 2021
+get command write --- Sun May  2 13:06:50 2021
+exit --- Sun May  2 13:06:50 2021
+
+New session --- Sun May  2 13:06:53 2021
+gen field --- Sun May  2 13:06:53 2021
+start find_clasters_by_EM  clasters=3 --- Sun May  2 13:06:53 2021
+finish find_clasters_by_EM --- Sun May  2 13:06:57 2021
+get command write --- Sun May  2 13:06:57 2021
+exit --- Sun May  2 13:06:57 2021
+
+New session --- Sun May  2 13:07:24 2021
+gen field --- Sun May  2 13:07:24 2021
+start find_clasters_by_EM  clasters=3 --- Sun May  2 13:07:24 2021
+finish find_clasters_by_EM --- Sun May  2 13:07:32 2021
+get command write --- Sun May  2 13:07:32 2021
+exit --- Sun May  2 13:07:32 2021
+
+New session --- Sun May  2 13:08:16 2021
+gen field --- Sun May  2 13:08:16 2021
+start find_clasters_by_EM  clasters=3 --- Sun May  2 13:08:16 2021
+finish find_clasters_by_EM --- Sun May  2 13:08:19 2021
+get command write --- Sun May  2 13:08:19 2021
+exit --- Sun May  2 13:08:19 2021
+
+
+New session --- Sun May  2 13:35:18 2021
+gen field --- Sun May  2 13:35:18 2021
+start find_clasters_by_ierarh --- Sun May  2 13:35:18 2021
+finish find_clasters_by_ierarh --- Sun May  2 13:35:43 2021
+Do not understand command = 3 --- Sun May  2 13:35:43 2021
+get command write --- Sun May  2 13:35:43 2021
+exit --- Sun May  2 13:35:43 2021
+
+New session --- Mon May  3 15:14:59 2021
+gen field --- Mon May  3 15:14:59 2021
+start find_clasters_by_ierarh --- Mon May  3 15:14:59 2021
+finish find_clasters_by_ierarh --- Mon May  3 15:15:09 2021
+Do not understand command = 3 --- Mon May  3 15:15:09 2021
+get command write --- Mon May  3 15:15:09 2021
+exit --- Mon May  3 15:15:09 2021
+
+New session --- Mon May  3 15:22:04 2021
+gen field --- Mon May  3 15:22:04 2021
+start find_clasters_by_ierarh --- Mon May  3 15:22:04 2021
+finish find_clasters_by_ierarh --- Mon May  3 15:22:06 2021
+Do not understand command = 3 --- Mon May  3 15:22:06 2021
+get command write --- Mon May  3 15:22:06 2021
+exit --- Mon May  3 15:22:06 2021

@@ -1,0 +1,38 @@
+set term gif animate delay 5
+set output "Ier_test1.gif"
+set title "Ierarh algoritm k=3"
+set xrange [-10:10]
+set yrange [-10:10]
+
+set palette model RGB defined (0 "red",1 "blue", 2 "green", 3 "purple", 4 "orange")
+
+do for [i=0:400] {
+  plot "ierarh_dots.txt" index i using 1:2:3 with points palette pt 7 ps 1, "ierarh_centers.txt" index i using 1:2:3 with points palette pt 2 ps 2
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

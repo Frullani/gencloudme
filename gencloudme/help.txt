@@ -1,0 +1,20 @@
+mfield - create field
+mcloud - create cloud(means by x,y and dispersiya Dx, Dy)
+
+gistoramm_cloud - buid gistogram (number of cloud and count of stolbcov)
+gistoramm_all - build gistogram of all field (count of stolbcov)
+write - write all dots to file
+
+matrix - build matrix of distanations
+
+find_clasters_by_kmeans - find classters with k_means (need to put k=number of classters)
+find_clasters_by_volna - find classters with DBSCAN and wave alg
+find_clasters_by_EM - find classters with EM algoritm (need to put k=number of classters)
+find_clasters_by_kmeans_core - find classters by kmeans with cores (need to put in k=Num of clasters, p=Num of cores)
+find_clasters_by_forel - find clasters by forel (need to put in radius of tortules)
+find_clasters_by_ierarh - find clasters by ierarh algo (need to put in k = Num of clasters)
+
+create_find_сlasters - create class of find clasters
+exit - exit programm
+
+

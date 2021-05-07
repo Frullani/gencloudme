@@ -1,0 +1,5 @@
+set xrange [0:4]                      
+set yrange [0:3] 
+set palette model RGB defined (0 "red",1 "blue", 2 "green")                     
+plot "dots.txt" using 1:2:3 with points palette
+

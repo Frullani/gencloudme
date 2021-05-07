@@ -1,0 +1,389 @@
+//
+//  field.cpp
+//  gencloudme
+//
+//  Created by Arsenii Klevakin on 13.10.2020.
+//
+
+#include "field.hpp"
+void field::gencloud(double x, double y, double Dx, double Dy, int N){
+    if(state=="ok"){
+        cloud A;
+        clouds.push_back(A);
+        A.Numcl=clouds.size()%1000-1;
+    }
+}
+void field::gen_distant_M(){
+    DM= new distant_matrix;
+    build_matix(clouds, countC);
+}
+
+void field::point_numbering(){
+    int counter=0;
+    for(int i=0; i<countC; i++){
+        for(int j=0; j<clouds[i].countP; j++){
+            clouds[i].points[j].NumP=counter;
+            counter++;
+        }
+    }
+}
+
+point* field::find_point_by_number(int n){ //return ptr of point by number
+    int C=0;
+    int i=0;
+    for(i=0; i<countC; i++){
+        C=C+clouds[i].countP;
+        if(n<C) {
+            C=C-clouds[i].countP;
+            break;
+        }
+    }
+    return &clouds[i].points[n-C];
+}
+
+void field::wave_algo(vector<vector<bool>> B, int p){
+    vector<point*> ter;
+    point *a;
+    point *main;
+    int t=0;
+    bool go=true;
+    
+    main=find_point_by_number(p);
+    
+    for(int i=0; i<countC; i++){
+        for(int j=0; j<clouds[i].countP; j++){
+            clouds[i].points[j].new_state=t;
+        }
+    }
+    t++;
+    main->new_state=t;
+    main->priv_state=0;
+    ter.push_back(main);
+    
+    while(go==true){
+        t++;
+        
+        for(int i=0; i<countC; i++){
+            for(int j=0; j<clouds[i].countP; j++){ //prohod po vsem toshkam
+                if((clouds[i].points[j].new_state==t-1)&&(clouds[i].points[j].marker!=3)){ //esli tochka yavlatca frontom volni
+                    //cout << "T=" << t << endl;
+                    for(int k=1; k<B.size(); k++){ //serch for incendentnie tochki
+                        if((B[clouds[i].points[j].NumP][k]==1)&&(clouds[i].points[j].marker!=3)){
+                
+                            a=find_point_by_number(k);
+                            if(a->new_state==0){
+                            a->priv_state=a->new_state;
+                            a->new_state=t;
+                            
+                            ter.push_back(a);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        //cout << ter.size();
+        go=false;
+        
+        for(int i=0; i<countC; i++){
+            for(int j=0; j<clouds[i].countP; j++){
+                if((clouds[i].points[j].new_state==t-1)&&(clouds[i].points[j].marker!=3)) go = true;
+            }
+        }
+        //if(go==false) cout << "advwfvq";
+        //countClas++;
+    }
+    for(int i=0; i<ter.size(); i++){
+        FC->new_cluster();
+        FC->clasters[FC->countClas-1].points.push_back(ter[i]);
+    }
+    //FC->new_cluster();
+}
+
+void field::find_by_wave(){
+    //wave_algo(GM->BI, 0);
+    FC=new find_clasters;
+    FC_count++;
+    FC->FC_num=FC_count-1;
+    for(int i=0; i<countC; i++){
+        for(int j=0; j<clouds[i].countP; j++){
+            if((clouds[i].points[j].new_state==0)&&(clouds[i].points[j].marker==1)){
+                cout << "arivederchi";
+                wave_algo(FC->GM->BI, clouds[i].points[j].NumP);
+            }
+        }
+    }
+    FC->colorize();
+}
+
+void field::k_means(int k){
+    vector<point> c;
+    vector<point *> group;
+    point a;
+    bool go=true;
+    
+    for(int i=0; i<k; i++){
+        a=*find_point_by_number(countP/(i+1)-2);
+        a.metka=i;
+        c.push_back(a);
+    }
+    
+    while (go == true) {
+        razmetka(k, c);
+        go=false;
+        
+        for(int i=0; i<k; i++){
+            group.clear();
+            group=find_group(i, group);
+            //cout<<endl <<group.size();
+            a=center_mass(group);
+            if((go==false)&&((a.x!=c[i].x)||(a.y!=c[i].y))) go=true; //term of stop
+            c[i]=a;
+        }
+        
+    }
+    FC = new find_clasters;
+    
+    for(int i=0; i<k; i++){
+        FC->new_cluster();
+        group.clear();
+        group=find_group(i, group);
+        FC->clasters[i].points=group;
+    }
+    FC->colorize();
+    fin_cl.push_back(*FC);
+}
+
+double field::D(point a, point b){
+    return (sqrt(mod((a.x-b.x)*(a.x-b.x)+(a.y-b.y)*(a.y-b.y))));
+}
+
+double field::mod(double a){
+    if (a==0) return a;
+    if (a<0.000001) return -a;
+    else return a;
+}
+
+void field::razmetka(int k, vector<point> c){ //find nearest center to point and marker it one by one
+    double min, metka, d;
+
+    for(int i=0; i<countC; i++){ //razmetka tochek
+        for(int j=0; j<clouds[i].countP; j++){ //prohod po vsem toshkam
+            min = D(clouds[i].points[j], c[0]);
+            metka=c[0].metka;
+            
+            for(int l=1; l<k; l++){
+                d=D(clouds[i].points[j], c[l]);
+                if(min>d) {
+                    min=d;
+                    metka=c[l].metka;
+                }
+            }
+            clouds[i].points[j].metka=metka;
+        }
+    }
+}
+
+void field::razmetka_in_group(int p, vector<point*> dot, vector<point> c){
+    double min, metka, d;
+    
+    for(int i=0; i<dot.size(); i++){
+        min = D(*dot[i], c[0]);
+        metka=-1;
+        
+        for(int l=1; l<p; l++){
+            d=D(*dot[i], c[l]);
+            if(min>d) {
+                min=d;
+                metka=-l;
+            }
+        }
+        dot[i]->metka=metka;
+    }
+}
+
+vector<point *> field::find_group(int metka, vector<point *> g){ //nohodit vse tocki s metkoy
+    for(int i=0; i<countC; i++){
+        for(int j=0; j<clouds[i].countP; j++){
+            if(clouds[i].points[j].metka==metka){
+                g.push_back(&clouds[i].points[j]);
+                //cout<<endl << g.size();
+            }
+        }
+    }
+    return g;
+}
+
+point field::center_mass(vector<point *> g){ //find center mass of group
+    point a;
+    a.x=g[0]->x;
+    a.y=g[0]->y;
+    a.metka=g[0]->metka;
+    for(int i=1; i<g.size(); i++){
+        a.x=a.x+(g[i]->x-a.x)/(i+1);
+        a.y=a.y+(g[i]->y-a.y)/(i+1);
+    }
+    return a;
+}
+
+void field::DBSCAN(double d, int k){
+    int sum=0;
+    FC=new find_clasters;
+    FC_count++;
+    FC->FC_num=FC_count-1;
+    
+    FC->GM->build_GM(DM->M, d);
+    for(int i=0; i<countC; i++){
+        for(int j=0; j<clouds[i].countP; j++){
+            sum=0;
+            for(int l=0; l<FC->GM->BI.size(); l++){
+                sum=sum+FC->GM->BI[clouds[i].points[j].NumP][l];
+            }
+            if(sum>=k){
+                clouds[i].points[j].marker=1;
+                for(int l=0; l<FC->GM->BI.size(); l++){
+                    if(FC->GM->BI[clouds[i].points[j].NumP][l]==1) {
+                        find_point_by_number(l)->marker=2;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+
+void field::build_matix(vector<cloud> clouds, int countC){
+    vector <double> buth;
+    vector<vector <double>> M;
+    for(int i=0; i<countC; i++){
+        for(int j=0; j<clouds[i].countP; j++){
+            for(int k=0; k<countC; k++){
+                for(int l=0; l<clouds[k].countP; l++){
+                    buth.push_back(D(clouds[i].points[j], clouds[k].points[l]));
+                }
+            }
+            M.push_back(buth);
+            buth.clear();
+        }
+    }
+    DM->M=M;
+}
+
+
+void field::k_means_core(int k, int p){
+    vector<point> c;
+    vector<point *> group;
+    vector<vector<point*>> core;
+    vector<vector<point*>> privcore;
+    point a;
+    bool go=true;
+    core.resize(k); privcore.resize(k);
+    
+    for(int i=0; i<k; i++){
+        a=*find_point_by_number(countP/(i+1)-2);
+        a.metka=i;
+        c.push_back(a);
+    }
+    
+    k_means(k);
+    for(int i=0; i<k; i++){
+    group.clear();
+    group=find_group(i, group);
+    cout << group.size() <<"!!!"<< i;
+    core[i]=k_means_for_group(p, group, core[i], i);
+    
+    razmetka_by_core(k, core);
+    }
+    
+    while (go == true) {
+        go=false;
+        cout << "asva";
+        for(int i=0; i<k; i++){
+            group.clear();
+            for(int q=0; q<core.size(); q++){
+                for(int h=0; h<core[q].size(); h++){
+                    privcore[q].push_back(core[q][h]);
+                }
+            }
+            
+            group=find_group(i, group);
+            core[i]=k_means_for_group(p, group, core[i], i);
+            razmetka_by_core(k, core);
+            
+            for(int q=0; q<core.size(); q++){
+                for(int h=0; h<core[q].size(); h++){
+                    if((go==false)&&((privcore[q][h]->x!=core[q][h]->x)||(privcore[q][h]->y!=core[q][h]->y))) go=true;//term of stop
+                }
+            }
+        }
+        
+    }
+    
+    FC = new find_clasters;
+    for(int i=0; i<k; i++){
+        FC->new_cluster();
+        group.clear();
+        group=find_group(i, group);
+        FC->clasters[i].points=group;
+    }
+    FC->colorize();
+    fin_cl.push_back(*FC);
+}
+
+vector<point*> field::k_means_for_group(int k, vector<point*> dot, vector<point*> core, int marker){
+    vector<point> c;
+    vector<point *> group;
+    point a;
+    bool go=true;
+    
+    for(int i=0; i<k; i++){
+        a=*dot[dot.size()/(i+1)-2];
+        a.metka=-i-1;
+        c.push_back(a);
+    }
+    
+    while (go == true) {
+        razmetka(k, c);
+        go=false;
+        
+        for(int i=0; i<k; i++){
+            group.clear();
+            group=find_group(-i-1, group);
+            //cout<<endl <<group.size();
+            a=center_mass(group);
+            if((go==false)&&((a.x!=c[i].x)||(a.y!=c[i].y))) go=true; //term of stop
+            c[i]=a;
+        }
+        
+    }
+    for(int i=0; i<c.size(); i++){
+        c[i].metka=marker;
+        core.push_back(&c[i]);
+        cout << "ok";
+    }
+    return core;
+}
+
+void field::razmetka_by_core(int k, vector<vector<point*>> core){
+    double min, metka, d;
+
+    for(int i=0; i<countC; i++){ //razmetka tochek
+        for(int j=0; j<clouds[i].countP; j++){ //prohod po vsem toshkam
+            min = D(clouds[i].points[j], *core[0][0]);
+            metka=0;
+            
+            for(int l=1; l<core.size(); l++){
+                for(int t=1; t<core[l].size(); t++){
+                   d = D(clouds[i].points[j], *core[l][t]);
+                    if(min>d) {
+                        min=d;
+                        //metka=core;
+                    }
+                }
+            }
+            clouds[i].points[j].metka=metka;
+        }
+    }
+}
+

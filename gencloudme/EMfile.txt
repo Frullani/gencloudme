@@ -1,0 +1,5 @@
+set object 1 ellipse center 0.242926, 0.218183 size 1.9955, 0.535634 angle 142.742 front fs empty bo 1
+set object 2 ellipse center 1.49578, 0.854679 size 2.2056, 0.442809 angle 135.465 front fs empty bo 1
+set object 3 ellipse center 3.93834, 0.757783 size 3.317, 0.198717 angle 9.47521 front fs empty bo 1
+set object 4 ellipse center 4.85798, 2.46333 size 0.966236, 0.811194 angle 151.636 front fs empty bo 1
+set object 5 ellipse center 6.08342, 5.09983 size 1.04824, 0.900492 angle 160.67 front fs empty bo 1

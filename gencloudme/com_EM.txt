@@ -1,0 +1,46 @@
+set term gif animate delay 10
+set output "EM_test2.gif"
+set title "EM algoritm k=3"
+set xrange [-10:10]
+set yrange [-10:10]
+
+set palette model RGB defined (0 "red",1 "blue", 2 "green", 3 "purple", 4 "orange")
+
+do for [i=0:200] {
+  plot "EMdots.txt" index i using 1:2:3 with points palette, "ellips.txt" index i using 1:2:3:4:5 with ellipses
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
